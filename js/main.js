@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 
 var Y_MIN = 130;
 var Y_MAX = 630;
@@ -19,7 +19,7 @@ map.classList.remove('.map--faded');
 
 var getRandomInteger = function (min, max) {
   return Math.floor(min + Math.random() * (max + 1 - min));
-}
+};
 
 var createData = function () {
   var data = [];
